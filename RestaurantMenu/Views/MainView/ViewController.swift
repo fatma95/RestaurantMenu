@@ -127,6 +127,18 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
 
         headerCell = tableView.dequeueReusableHeaderFooterView(withIdentifier: "MenuCategoryHeader") as! MenuCategoryHeader
+        if (menuObject.categories?[section].isExpanded)!
+        {
+            headerCell.dropDownImage.image = #imageLiteral(resourceName: "up_icon")
+            
+        }
+            
+        else
+        {
+            headerCell.dropDownImage.image = #imageLiteral(resourceName: "dropdown_icon")
+            
+        }
+        
         let button = headerCell.headerButton
         headerCell.headerLabel.text = menuObject.categories?[section].name
         button?.addTarget(self, action: #selector(doCollapseExpandSection), for: .touchUpInside)
