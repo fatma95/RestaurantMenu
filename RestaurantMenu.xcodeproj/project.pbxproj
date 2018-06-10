@@ -17,7 +17,6 @@
 		F401B6BF20C833B700D641CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F401B6BD20C833B700D641CD /* LaunchScreen.storyboard */; };
 		F401B6CA20C833B700D641CD /* RestaurantMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F401B6C920C833B700D641CD /* RestaurantMenuTests.swift */; };
 		F401B6D520C833B700D641CD /* RestaurantMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F401B6D420C833B700D641CD /* RestaurantMenuUITests.swift */; };
-		F4BF2BF420CB208C00FF939C /* HeaderSectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BF2BF320CB208C00FF939C /* HeaderSectionTableViewCell.swift */; };
 		F4CC313E20C979F0005D5725 /* MenuItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CC313C20C979F0005D5725 /* MenuItemTableViewCell.swift */; };
 		F4CC313F20C979F0005D5725 /* MenuItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4CC313D20C979F0005D5725 /* MenuItemTableViewCell.xib */; };
 		F4CC314920C99300005D5725 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CC314820C99300005D5725 /* Extensions.swift */; };
@@ -70,7 +69,6 @@
 		F401B6D020C833B700D641CD /* RestaurantMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F401B6D420C833B700D641CD /* RestaurantMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMenuUITests.swift; sourceTree = "<group>"; };
 		F401B6D620C833B700D641CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4BF2BF320CB208C00FF939C /* HeaderSectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSectionTableViewCell.swift; sourceTree = "<group>"; };
 		F4CC313C20C979F0005D5725 /* MenuItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemTableViewCell.swift; sourceTree = "<group>"; };
 		F4CC313D20C979F0005D5725 /* MenuItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuItemTableViewCell.xib; sourceTree = "<group>"; };
 		F4CC314820C99300005D5725 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -166,7 +164,6 @@
 				F401B6BB20C833B700D641CD /* Assets.xcassets */,
 				F401B6BD20C833B700D641CD /* LaunchScreen.storyboard */,
 				F401B6C020C833B700D641CD /* Info.plist */,
-				F4BF2BF320CB208C00FF939C /* HeaderSectionTableViewCell.swift */,
 			);
 			path = RestaurantMenu;
 			sourceTree = "<group>";
@@ -552,7 +549,6 @@
 			files = (
 				F4CC314920C99300005D5725 /* Extensions.swift in Sources */,
 				F4CC315120C9A949005D5725 /* BaseObject.swift in Sources */,
-				F4BF2BF420CB208C00FF939C /* HeaderSectionTableViewCell.swift in Sources */,
 				F4E8C26B20CB5A4000F7F1F2 /* MenuCategoryHeader.swift in Sources */,
 				F4CC315020C9A949005D5725 /* Categories.swift in Sources */,
 				F4DB479B20C9FDFF008510DD /* AlertMessages.swift in Sources */,
