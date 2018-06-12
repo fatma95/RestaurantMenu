@@ -32,7 +32,6 @@ class ViewController: UIViewController {
         getData()
     }
     
-    
     //MARK:- Retrieve list of Menu Items from API
     func getData()
     {

@@ -7,8 +7,6 @@ target 'RestaurantMenu' do
 
   # Pods for RestaurantMenu
         pod 'Alamofire'
-      	pod 'SwiftyJSON'
-        pod 'ObjectMapper'
 
 
   target 'RestaurantMenuTests' do
